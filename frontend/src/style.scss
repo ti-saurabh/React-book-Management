@@ -1,0 +1,97 @@
+*{font-family: 'Kalam', cursive;}
+.app{
+
+    .main-home{
+
+        position: relative;
+
+        img{
+            height: 96.7vh;
+            width: 99vw;
+
+        }
+
+        .textHome{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            top: 20px;
+            margin-left: 1em;
+            padding-bottom: 2.5em;
+            position: absolute;
+            border: 0.4em solid white;
+            border-radius: 2rem;
+            height: 40rem;
+            background-color:#A79E95;
+            width: 40rem;
+            //  #FEEAE9
+            h1{
+                // color: white;
+                font-size: 40px;
+            }
+
+            .home-btn{
+                height: 2.5rem;
+                width: 10rem;
+                border-radius: 2rem;
+                border: 0.1em solid #F58291;
+                cursor: pointer;
+                margin-top: 2em;
+                font-size: large;
+
+
+                &:hover{
+                    background-color:#F58291;
+                    color: white;
+                    transition:0.5s;
+                    font-size: larger;
+                    height: 3.5rem;
+                    width: 15rem;
+
+                }
+            }
+        }
+    }
+    .main-home{
+        .form{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+             align-items: center;
+            top: 20px;
+            margin-left: 1em;
+            padding-bottom: 2.5em;
+            position: absolute;
+            border: 0.4em solid rgb(206, 25, 25);
+            border-radius: 2rem;
+            height: 40rem;
+            background-color:#b15c07;
+            width: 38.3rem;
+            // #A79E95
+        
+
+           select{
+                display:flex ;
+                justify-content: center;
+                align-items: center;
+                margin-left: 15px;
+                padding-right: 355px;
+                border-radius: 2em;
+                height: 4vh;
+                border: 0.2em black;
+            }
+            input{
+                display:flex ;
+                justify-content: center;
+                align-items: center;
+                border-radius: 2em;
+                margin: 1em;
+                width: 400px;
+                height: 4vh;
+            }
+        }
+        
+    }
+}
+
